@@ -8,9 +8,9 @@
 
 <body>
 	<!-- the entire body must be written by student -->
-	<table class="table" border>
+	<table class="table .table-responsive" border>
 		<caption>List of all transactions</caption>
-		<thead>
+		<thead class="table-dark">
 			<th>#</th>
 			<th>From</th>
 			<th>To</th>
@@ -35,13 +35,10 @@
 				<td>John</td>
 				<td>2000</td>
 			</tr>
-			<tr>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td id="total">Total 4000</td>
-			</tr>
 		</tbody>
+		<tfoot>
+			<td id="total" colspan="4">Total 4000</td>
+		</tfoot>
 	</table>
     <script type="text/javascript" src="./script.js">
 </script>
